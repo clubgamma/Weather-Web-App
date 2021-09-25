@@ -4,7 +4,7 @@
  A Simple, yet fully functional Weather App with Vanilla JavaScript and API
 ## Features
 
-- Make an responsive and beautiful web app that gives information of current temperature (celcius) and weather type (cloudy/sunny/rainy) on searching a particular city
+- Make an responsive and beautiful web app that gives brief information like current temperature (celcius) and weather type (cloudy/sunny/rainy) on searching a particular city
 -  Get Weather API from [here](https://home.openweathermap.org/users/sign_up)
 - Get Weather Web App UI Design Idea from [here](https://www.behance.net/search/projects/?tracking_source=typeahead_search_direct&search=weather%20web%20app&sort=recommended&time=month)
 - Find Weather Related Icons from [here](https://www.flaticon.com/free-icons/weather-app)
