@@ -77,6 +77,9 @@ First of all, make a folder named as your GitHub username which is compulsory.
   
 - After that you have to write your GitHub username as the title of your pull-request and describe your work if you want and that's it!! Create a pull-request by clicking the button
 Also add the below 2 lines in the description. It is compulsory for successful submission.
+![Screenshot 2021-09-26 at 6 58 08 PM](https://user-images.githubusercontent.com/68161473/134810074-11ceb4c8-0166-42f7-af24-f8e29b5f05b2.png)
+
+
 
  - [X] I have read the Code Of Conduct.
         
