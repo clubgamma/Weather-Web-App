@@ -43,22 +43,18 @@ If you don't see the "origin" remote, you can add it using the git command below
   
 - **It's Code Time now**
   
-First of all, make a folder named as your GitHub username which is compulsory. 
-
-
-![Screenshot 2021-09-26 at 6 15 49 PM](https://user-images.githubusercontent.com/68161473/134808777-bf470e6b-b2e8-4aa6-8847-77359cfe97f9.png)
-
-
-- After that start writing code inside that folder only and you know what you have to code.
+After getting the project in code editor, make necessary changes keeping the features in mind available in readme.
 
    - **Now it's time to save the work**
 
+      - Make a branch for the feature you have worked on
+        > git checkout -b feature_branch_name
       - Stage the changes you have made by firing the below command
-        > git add -A
+        > git add .
       - Commit the changes 
-        > git commit -m "Description of changes/your work"
+        > git commit -m "Description of changes in your work"
       - Push the changes to your forked repo in that specific feature branch
-        >  git push origin remote_branch_name
+        >  git push origin feature_branch_name
         
      Note: Create a branch for that feature and push there. No direct push to master. 
         
