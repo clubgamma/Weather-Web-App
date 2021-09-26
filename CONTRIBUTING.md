@@ -57,8 +57,10 @@ First of all, make a folder named as your GitHub username which is compulsory.
         > git add -A
       - Commit the changes 
         > git commit -m "Description of changes/your work"
-      - Push the changes to your forked repo
-        > git push origin master
+      - Push the changes to your forked repo in that specific feature branch
+        >  git push origin remote_branch_name
+        
+     Note: Create a branch for that feature and push there. No direct push to master. 
         
   - **Let's finish this**
 - Go to your forked repo on GitHub website and refresh the page, you'll see something like the below image
