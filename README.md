@@ -8,6 +8,9 @@
 -  Get Weather API from [here](https://home.openweathermap.org/users/sign_up)
 - You can Find Weather Related Icons from [here](https://www.flaticon.com/free-icons/weather-app)
 
+Read the [CONTRIBUTING.md](https://github.com/clubgamma/Weather-Web-App/blob/main/CONTRIBUTING.md) to start your open source contribution.
+
+
 - Weather Web App UI Design should look something like this
 <img src="https://cdn.dribbble.com/users/117472/screenshots/2298243/010-day_weatherwidget.jpg?compress=1&resize=800x600">
 
