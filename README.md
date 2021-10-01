@@ -4,10 +4,12 @@ A Simple, yet fully functional Weather App with Vanilla JavaScript and API
 
 ## Features
 
+
 - Make an responsive and beautiful web app that gives brief information like current temperature (celcius) and weather type (cloudy/sunny/rainy) on searching a particular city
 - Get Weather API from [here](https://home.openweathermap.org/users/sign_up)
 - Get Reverse-geocoding-rest-api [here](https://www.mapmyindia.com/api/advanced-maps/doc/reverse-geocoding-api#/Reverse%20Geocode%20API)
   (You need to create an account and get an API key)
+
 - You can Find Weather Related Icons from [here](https://www.flaticon.com/free-icons/weather-app)
 
 Read the [CONTRIBUTING.md](https://github.com/clubgamma/Weather-Web-App/blob/main/CONTRIBUTING.md) to start your open source contribution.
