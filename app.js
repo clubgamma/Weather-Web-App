@@ -1,4 +1,4 @@
-const apikey = "a34e076d1c28a538a2209f6035f82208";
+const apikey = "a34e076d1c28a538a2209f6035f82208"; // Your API key
 
 const weekday = new Array(7);
 weekday[0] = "Sun";
