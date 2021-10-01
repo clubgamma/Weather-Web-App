@@ -23,9 +23,13 @@
         <div class="blurred-container">
         <div class="content">
           <div class="main">
-          <form>
-          <input type="text" placeholder="Search for a city" autofocus />
-          <button type="submit">SUBMIT</button>
+          <form class="form">
+            <div class="col-md-6 padding-bottom">
+                  <label for="fname"><font style="font-size: 30px; font-weight: 3em;padding-right: 10px;">Enter a City:                        </font></label>
+                  <input type="text" id="city" class="form-control"  placeholder="City">
+                </div>
+                <br>
+            <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-primary btn-block">
           <span class="msg"></span>
         </form>
       </div>

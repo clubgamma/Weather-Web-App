@@ -27,15 +27,55 @@ text-align: center;
 .blurred-container {
 border-radius: 25px;
 display: flex;
+
 justify-content: center;
 align-items: center;
 background: url('../img/sky.jpg');
-background-size: cover;
+background-size:contain;
 background-attachment: fixed;
+background-repeat: no-repeat;
+background-position:top ;
+
 height: 400px;
 width: 700px;
 }
+.btn {
+  margin-right: 4px;
+  margin-bottom: 4px;
+  font-size: 16px;
+  font-weight: 400;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  border-radius: 30px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  padding: 8px 20px; }
+  .btn.btn-md {
+    padding: 8px 20px !important; }
+  .btn.btn-lg {
+    padding: 18px 36px !important; }
+  .btn:hover, .btn:active, .btn:focus {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline: none !important; }
 
+.btn-primary {
+  background: #FFDD00;
+  cursor: pointer;
+  color: #fff;
+  border: 1px solid #FFDD00; }
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    background: #ebd265 !important;
+    border-color: #ffe01a !important; }
+  .btn-primary.btn-outline {
+    background: transparent;
+    color: #FFDD00;
+    border: 1px solid #FFDD00; }
+    .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
+      background: #FFDD00;
+      color: #fff; }
 .blurred-container .content {
 
 overflow: hidden;
@@ -48,6 +88,36 @@ width: 700px;
 
 
 }
+.form {
+  padding-left: 150px;
+  text-align: center;
+  align-content: center;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+div {        
+  margin-left:auto;
+  margin-right:auto;
+}
+.form-control {
+  -webkit-box-shadow: none;
+
+  box-shadow: none;
+  background: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  height: 40px;
+  width: 200px;
+  font-size: 18px;
+  font-weight: 300; }
+  .form-control:active, .form-control:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #FFDD00; }
 
 .blurred-container .content::before {
 content: "";
