@@ -10,75 +10,31 @@
   </head>
   <body>
     <div class="api">
-      <div class="container">
-        🌤 This Project needs an OpenWeather API key to work.
-        <a target="_blank" href="https://home.openweathermap.org/users/sign_up"
-          >Get yours here!</a
-        >
-      </div>
-      <button onclick="getLocation()">Try It</button>
-    </div>
-    <header id="header">
-      <div class="user-location">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="16"
-          height="16"
-          fill="currentColor"
-          class="location-icon bi bi-geo-alt-fill"
-          viewBox="0 0 16 16"
-        >
-          <path
-            d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"
-          />
-        </svg>
-        <p id="demo">Please allow to get your location</p>
-      </div>
-    </header>
-    <section class="top-banner">
-      <div class="container">
-        <h1 class="heading">Weather Web App</h1>
-        <form>
-          <input type="text" placeholder="Search for a city" autofocus />
-          <button type="submit">SUBMIT</button>
-          <span class="msg"></span>
-        </form>
-      </div>
-    </section>
-    <script>
-      var x = document.querySelector("#demo");
-      console.log(x);
-      function getLocation() {
-        if (navigator.geolocation) {
-          navigator.geolocation.getCurrentPosition(showPosition);
-        } else {
-          x.innerHTML = "Geolocation is not supported by this browser.";
-        }
-      }
-      var lat;
-      var long;
 
-      function showPosition(position) {
-        console.log(position);
-        // Use this info to fetch weather data from the API mentioned in the repository readme.md
-        lat = position.coords.latitude;
-        long = position.coords.longitude;
-        fetch(
-          "https://apis.mapmyindia.com/advancedmaps/v1/<YOUR_API_KEY>/rev_geocode?lat=" +
-            lat +
-            "&lng=" +
-            long
-        )
-          .then((response) => response.json())
-          .then((data) => {
-            console.log(data.results[0]);
-            x.innerHTML =
-              data.results[0].locality + ", " + data.results[0].city;
-          });
-      }
-      window.onload = () => {
-        getLocation();
-      };
-    </script>
-  </body>
+  <div class="container">🌤 This Project needs an OpenWeather API key to work. <a target="_blank" href="https://home.openweathermap.org/users/sign_up">Get yours here!</a>
+  </div>
+</div>
+<section class="top-banner">
+  <div class="container">
+
+    <section class="top-banner">
+      <h1 class="heading">Weather Web App</h1>
+      <form action="main.html">
+          <input type="text" placeholder="Search for a city" autofocus id="searchCity" >
+          <button type="submit" onclick="store()">Submit</button>
+          <span class="msg"></span>
+
+      </form>
+  </section>
+  </div>
+</section>
+<script type="text/javascript">
+function store(){
+    let city = document.getElementById("searchCity").value;
+    console.log(city);
+    sessionStorage.setItem('cityName',city);
+}
+</script>
+</body>
+
 </html>
