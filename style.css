@@ -1,3 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+
 body {
   text-align: center;
+}
+p {
+  padding: 0;
+}
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-location {
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+  border-radius: 50px;
+  background-color: rgb(152, 95, 204);
+  font-family: "Acme", sans-serif;
+  width: fit-content;
+}
+.location-icon {
+  width: 1.5rem;
+  color: white;
+}
+
+#demo {
+  display: inline-block;
+  color: white;
 }
