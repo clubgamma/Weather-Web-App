@@ -1,0 +1,64 @@
+body {
+  font-family: "Quicksand", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+
+  background-image: url('../img/back.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position:center;
+  background-size: 100% ;
+	
+}
+* {
+  box-sizing: border-box;
+}
+
+
+.heading{
+font-weight: 20px;
+font-size: 2.2em;
+text-align: center;
+
+
+}
+
+.blurred-container {
+border-radius: 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+background: url('../img/sky.jpg');
+background-size: cover;
+background-attachment: fixed;
+height: 400px;
+width: 700px;
+}
+
+.blurred-container .content {
+
+overflow: hidden;
+box-shadow: 0 5px 32px rgba(0, 0, 0, 0.5);
+padding: 0px 10px 10px 0px;
+background: inherit;
+border-radius: 12px;
+height: 400px;
+width: 700px;
+
+
+}
+
+.blurred-container .content::before {
+content: "";
+position: absolute;
+background: inherit;
+filter: blur(20px);
+}
+
+
+.blurred-container .content h1,
+.blurred-container .content h2 {
+    position: center;
+    z-index: 2;
+}
