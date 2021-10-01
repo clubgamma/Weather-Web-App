@@ -63,15 +63,8 @@
         // Use this info to fetch weather data from the API mentioned in the repository readme.md
         lat = position.coords.latitude;
         long = position.coords.longitude;
-
-        console.log(
-          "https://apis.mapmyindia.com/advancedmaps/v1/d6f0baf4163a6f9a7a47c2949609f1bc/rev_geocode?lat=" +
-            lat +
-            "&lng=" +
-            long
-        );
         fetch(
-          "https://apis.mapmyindia.com/advancedmaps/v1/d6f0baf4163a6f9a7a47c2949609f1bc/rev_geocode?lat=" +
+          "https://apis.mapmyindia.com/advancedmaps/v1/<YOUR_API_KEY>/rev_geocode?lat=" +
             lat +
             "&lng=" +
             long
