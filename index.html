@@ -16,16 +16,18 @@
 </div>
 <section class="top-banner">
   <div class="container">
-
     <section class="top-banner">
       <h1 class="heading">Weather Web App</h1>
-      <form action="main.html">
-          <input type="text" placeholder="Search for a city" autofocus id="searchCity" >
-          <button type="submit" onclick="store()">Submit</button>
-          <span class="msg"></span>
+      <form class="search-form" action="main.html">
+        <div class="input-group">
+          <input type="text" placeholder="Search for a city" autofocus class="input-field" id="searchCity" >
+          <label for="searchCity" class="input-label">Search for a city</label>
+          <button type="submit" class="input-submit" onclick="store()">🔍</button>
+        </div>
+        <span class="msg"></span>
 
       </form>
-  </section>
+    </section>
   </div>
 </section>
 <script type="text/javascript">
