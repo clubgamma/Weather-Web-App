@@ -1,0 +1,121 @@
+body {
+  font-family: "Quicksand", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+
+  background-image: url('back.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position:center;
+  background-size: 100% ;
+
+    margin: 0 auto;
+    max-width: 1024px;
+    min-width: 800px;
+    text-align: center;
+
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.imglogo{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.big{
+    font-size: 8rem;
+}
+
+
+
+.headerpart{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+}
+
+.scrollable{
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-x: scroll; 
+}
+
+.scrollable::-webkit-scrollbar{
+    display: none;
+}
+
+.leftp{
+    margin-top: 1rem;
+    text-align: left;
+    width: 50%;
+}
+
+.rightp{
+    width: 50%;
+    text-align: right;
+}
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: black;
+    font-weight: 5px;
+    font-size: 17px;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+
+
+.heading{
+font-weight: 20px;
+font-size: 40px;
+text-align: center;
+
+
+}
+
+.blurred-container {
+border-radius: 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+background: url('sky.jpg');
+background-size: cover;
+background-attachment: fixed;
+height: 600px;
+width: 1000px;
+}
+
+.blurred-container .content {
+
+overflow: hidden;
+box-shadow: 0 5px 32px rgba(0, 0, 0, 0.5);
+padding: 0px 10px 10px 0px;
+background: inherit;
+border-radius: 12px;
+height: 600px;
+width: 1000px;
+
+
+
+}
+
+.blurred-container .content::before {
+content: "";
+position: absolute;
+background: inherit;
+filter: blur(20px);
+}
+
+
+.blurred-container .content h1,
+.blurred-container .content h2 {
+    position: center;
+    z-index: 2;
+}
