@@ -18,6 +18,7 @@ body {
 }
 
 *{
+     color: white;
   box-sizing: border-box;
 }
 
@@ -25,11 +26,70 @@ body {
     margin: 0;
     padding: 0;
 }
+.btn{
 
+color: black;
 
+}
+.card-des{
+    margin: 2rem;
+    width: auto;
+    height: 80vh;
+    text-align: center;
+    border-radius:20px;
+    position: relative;
+    z-index: 1;
+}
+
+.card-des::before{
+    filter: blur(8px);
+    -webkit-filter: blur(8px);  
+    background-image: linear-gradient(to right, #3A1C71, #D76D77,#FFAF7B);
+    background: url('card-bg.jpg');
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
 
 .big{
     font-size: 8rem;
+}
+
+.cardbody{
+    margin-top: 0rem;
+    margin-bottom:0rem;
+    margin-left: 5rem;    
+    margin-right: 5rem; 
+    
+}
+
+.headerpart{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+}
+
+.scrollable{
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-x: scroll; 
+}
+
+.scrollable::-webkit-scrollbar{
+    display: none;
+}
+
+.leftp{
+    margin-top: 1rem;
+    text-align: left;
+    width: 50%;
+}
+
+.rightp{
+    width: 50%;
+    text-align: right;
 }
 
 
@@ -71,11 +131,11 @@ body {
 }
 
 
-
 .heading{
 font-weight: 20px;
 font-size: 40px;
 text-align: center;
+ color:black    ;
 
 
 }
