@@ -16,6 +16,10 @@ body {
     text-align: center;
 
 }
+.weather-logo{
+    
+}
+
 
 *{
      color: white;
@@ -26,9 +30,19 @@ body {
     margin: 0;
     padding: 0;
 }
-.btn{
-
-color: black;
+.btn {
+  margin-right: 4px;
+  margin-bottom: 4px;
+  font-size: 16px;
+  font-weight: 400;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  border-radius: 30px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  padding: 8px 20px;
 
 }
 .card-des{
@@ -40,6 +54,48 @@ color: black;
     position: relative;
     z-index: 1;
 }
+.container-main{
+padding-top: 150px;
+
+
+
+
+}
+.form-control {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -ms-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  border-radius: 15px !important;
+  height: 35px !important;
+  background: floralwhite !important; 
+  font-size: 13px !important;
+  font-weight: 300;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  border-radius: 0px; }
+  .form-control:focus, .form-control:active {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid rgba(0, 0, 0, 0.8); }
+
+
+    .form-control {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  height: 54px;
+  font-size: 18px;
+  font-weight: 300; }
+  .form-control:active, .form-control:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #FFDD00; }
 
 .card-des::before{
     filter: blur(8px);
@@ -53,9 +109,27 @@ color: black;
     z-index: -1;
 }
 
+.btn-primary {
+
+  background: #FFDF00 ;
+  color: #fff;
+  border: 1px solid #FFDD00; }
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    background: #ffef00 !important;
+    cursor: pointer;
+    border-color: #ffe01a !important; }
+  .btn-primary.btn-outline {
+    background: transparent;
+    color: #FFDD00;
+    border: 1px solid #FFDD00; }
+    .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
+      background: #FFDD00;
+      color: #fff; }
+
 .big{
     font-size: 8rem;
 }
+
 
 .cardbody{
     margin-top: 0rem;
@@ -135,10 +209,21 @@ color: black;
 font-weight: 20px;
 font-size: 40px;
 text-align: center;
- color:black    ;
-
+color:black ;
+margin-top: 10px;
 
 }
+
+.heading-s{
+font-weight: 20px;
+font-size: 25px;
+text-align: center;
+color:black ;
+margin-top: 10px;
+margin-bottom: 3px;
+
+}
+
 
 .blurred-container {
 border-radius: 25px;

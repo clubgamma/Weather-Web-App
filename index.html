@@ -11,15 +11,19 @@
   <body>  
     
 <section class="top-banner">
-  <div class="container">
+  <div class="container container-main">
 
     <section class="top-banner">
-      <h1 class="heading">Weather Web App</h1>
+      <img src="weather.png" class="weather-logo" width="100" height="100">
+      <h1 class="heading"> Weather Web App</h1>
+      
       <form action="weather.html">
-          <input type="text" placeholder="Search for a city" autofocus id="searchCity" >
-          <button type="submit" onclick="store()" class="btn">Submit</button>
-          <span class="msg"></span>
+        <h1 style="text-align: center" class="heading-s"> Search for a city</h1>
+         
+          <input type="text" placeholder="Search For City"  class="form-control"   autofocus id="searchCity"  placeholder="Search For City">
 
+          <button class="btn btn-primary" type="submit" onclick="store()">Search</button>
+          
       </form>
   </section>
   </div>
